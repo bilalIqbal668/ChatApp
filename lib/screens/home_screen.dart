@@ -145,16 +145,16 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
           //floating button to add new user
-          floatingActionButton: Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: FloatingActionButton(
-                backgroundColor: Colors.white,
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (_) => const AiScreen()));
-                },
-                child: Lottie.asset('assets/lottie/ai.json', width: 40)),
-          ),
+          // floatingActionButton: Padding(
+          //   padding: const EdgeInsets.only(bottom: 10),
+          //   child: FloatingActionButton(
+          //       backgroundColor: Colors.white,
+          //       onPressed: () {
+          //         Navigator.push(context,
+          //             MaterialPageRoute(builder: (_) => const AiScreen()));
+          //       },
+          //       child: Lottie.asset('assets/lottie/ai.json', width: 40)),
+          // ),
 
           //body
           body: StreamBuilder(
